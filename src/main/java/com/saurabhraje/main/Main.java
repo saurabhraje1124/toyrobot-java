@@ -11,7 +11,6 @@ public class Main {
 	final static int BOARD_LENGTH = 5;
 	final static int BOARD_WIDTH = 5;
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
 		ToyRobot robot = new ToyRobot(BOARD_LENGTH, BOARD_WIDTH);
 		CommandLineArgs cmd = new CommandLineArgs(args);
