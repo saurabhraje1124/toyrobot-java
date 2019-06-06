@@ -25,6 +25,7 @@ public class Main {
 						while (scanner.hasNextLine()) {
 							robot.processCommand(scanner.nextLine());
 						}
+						scanner.close();
 					} catch (Exception ex) {
 						throw new Exception("Something went wrong in parsing the file. Please check the command file.");
 					}
